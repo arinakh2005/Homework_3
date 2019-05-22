@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal|center_vertical"
+    android:background="@mipmap/fon_73"
+    android:backgroundTintMode="add"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    tools:context=".Quest">
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="352dp"
+        android:layout_height="45dp"
+        android:layout_gravity="top"
+        android:fontFamily="@font/amita"
+        android:gravity="right|top|fill_vertical"
+        android:text="@string/textview"
+        android:textColor="#9C27B0"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/amita"
+        android:text="Hello World!"
+        android:textColor="#9C27B0"
+        android:textSize="25sp" />
+
+    <RadioGroup
+        android:id="@+id/rbGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/ans1"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:paddingTop="20dp"
+            android:textColor="#E91E63"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/ans2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textColor="#E91E63"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/ans3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textColor="#E91E63"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/ans4"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textColor="#E91E63"
+            android:textSize="18sp" />
+
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        app:srcCompat="@mipmap/dumy" />
+
+    <Button
+        android:id="@+id/answerBtn"
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal|top"
+        android:background="#E7D9EB"
+        android:fontFamily="@font/almendra_italic"
+        android:onClick="clickNextQuestion"
+        android:text="@string/answer"
+        android:textColor="#600A6F"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        app:srcCompat="@mipmap/dumy" />
+
+
+</LinearLayout>

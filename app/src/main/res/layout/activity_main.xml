@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/fon_73"
+    android:gravity="center_horizontal|center_vertical"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="276dp"
+        android:layout_height="277dp"
+        android:visibility="visible"
+        app:srcCompat="@mipmap/pan" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/dumy" />
+
+    <EditText
+        android:id="@+id/inputTxt"
+        android:layout_width="252dp"
+        android:layout_height="50dp"
+        android:background="#C1F1EC"
+        android:gravity="center_horizontal"
+        android:hint="@string/inputname"
+        android:inputType="text"
+        android:textColor="#009688"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:background="#58C7BD"
+        android:gravity="center_horizontal"
+        android:onClick="login"
+        android:text="@string/gotovictory"
+        android:textSize="20dp"
+        tools:text="@string/gotovictory" />
+
+</LinearLayout>

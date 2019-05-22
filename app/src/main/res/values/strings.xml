@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">Вікторина</string>
+    <string name="inputname">Введіть своє імя</string>
+    <string name="gotovictory">Розпочати</string>
+    <string name="answer">Відповісти</string>
+    <string name="textview">TextView</string>
+    <string-array name="questions">
+        <item>Скільки на Землі материків починаються з літери «А»? </item>
+        <item>Скільки діб має високосний рік? </item>
+        <item>Скільки музикантів у квінтеті?</item>
+        <item>Скільки полів-квадратиків на шахівниці?</item>
+        <item>Скільки холодних кольорів у веселці?</item>
+        <item>Скільки сантиметрів становить одна тисячна частина кілометра?</item>
+        <item>Скільки очей у звичайної мухи?</item>
+        <item>Скільки тривав політ Ю. Гагаріна?</item>
+        <item>Скільки у людини основних органів чуттів?</item>
+        <item>Скільки звуків в слові «розсіяний»?</item>
+    </string-array>
+
+    <string-array name="answersQuest1">
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="answersQuest2">
+        <item>366</item>
+        <item>365</item>
+        <item>367</item>
+        <item>364</item>
+    </string-array>
+
+    <string-array name="answersQuest3">
+        <item>4</item>
+        <item>6</item>
+        <item>3</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="answersQuest4">
+        <item>54</item>
+        <item>64</item>
+        <item>24</item>
+        <item>48</item>
+    </string-array>
+
+    <string-array name="answersQuest5">
+        <item>5</item>
+        <item>4</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="answersQuest6">
+        <item>1</item>
+        <item>100</item>
+        <item>10</item>
+        <item>1000</item>
+    </string-array>
+
+    <string-array name="answersQuest7">
+        <item>5</item>
+        <item>4</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="answersQuest8">
+        <item>1 год 48 хв</item>
+        <item>4 год 30 хв</item>
+        <item>18 год</item>
+        <item>3 год 5 хв</item>
+    </string-array>
+
+    <string-array name="answersQuest9">
+        <item>6</item>
+        <item>4</item>
+        <item>2</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="answersQuest10">
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>7</item>
+    </string-array>
+
+</resources>
